@@ -4,6 +4,12 @@
 
 .section-intro {
 	font-size: 1.25rem;
+
+	img {
+		width: 70%;
+		border-radius: 5px;
+		padding-top: 5px;
+	}
 }
 
 .hero-section {
@@ -104,9 +110,14 @@
 	.item-heading {
 		font-size: 1.125rem;
 	}
+	.link-to-details {
+		font-size: 16px;
+		font-weight: bold
+	}
 }
 
 .content-section {
+
 	.key-points-list {
 		font-size: 1.125rem;
 		
@@ -118,6 +129,34 @@
             padding-right: 10px;
         }
 	}
+
+	.calc-container {
+		display: flex;
+		align-items: center;
+		width: 50%;
+		height: 417px;
+	}
+
+	.calc-row {
+		height: 50px;
+		font-size: 25px;
+		text-align: center;
+
+		select {
+			width: 100px;
+			text-indent: 40%;
+			border-radius: 5px;
+			font-size: 24px;
+		}
+	}
+
+	.total {
+		font-size: 28px;
+		font-weight: bold;
+		color: black;
+	}
+
+
 	
 	.fa-check-circle {
 		color: $theme-color-tick;

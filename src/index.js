@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import Contact from "./contact";
+import About from "./about";
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
@@ -16,6 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
     </Routes>
   </BrowserRouter>
 );

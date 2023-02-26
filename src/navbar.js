@@ -2,14 +2,15 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid navbar-container">
             <div className="container navbar-wrapper">
                 <div className="row">
                     <div className="col-6 left-side text-start">
-                        SW Headstone Restoration
+                        <Link to="/">North Shore Cleaning</Link>
                     </div>
                     <div className="col-6 right-side text-end">
-                        <Link to="/contact">Contact</Link>
+                        <a href="#footer">Contact</a>
+                        <Link to="/about">About Our Services</Link>
                     </div>
                 </div>
             </div>
