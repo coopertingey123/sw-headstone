@@ -15,3 +15,30 @@
         text-decoration: underline;        
     }
 }
+
+@media (max-width: 575.98px) {
+    .navbar-container {
+        height: 100%;
+        padding: 10px 0px;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .left-side {
+            text-align: center !important;
+            padding: 10px;
+        }
+
+        .right-side {
+            display: flex;
+            flex-direction: column;
+            text-align: center !important;
+        }
+
+        a {
+            padding: 10px;
+        }
+    }
+}
